@@ -21,4 +21,5 @@ jobs:
           key: cache-7e28408
 
       - name: prime-cache-7e28408
+        id: prime-cache-7e28408
         run: echo "Cache result: ${{ steps.cache-deps.outputs.cache-hit }}"
